@@ -1,11 +1,5 @@
 export const musics = [
     {
-        id: 1,
-        name: "BeforeCrashing",
-        path: new URL("./music/BeforeCrashing.wav", import.meta.url).href,
-        description: "The name is what it is because the program crashed after I exported it",
-    },
-    {
         id: 2,
         name: "birds are fliers, just like you",
         path: new URL("./music/birds are fliers, just like you.ogg", import.meta.url).href,
@@ -22,12 +16,6 @@ export const musics = [
         name: "dead_dandelions",
         path: new URL("./music/dead_dandelions.ogg", import.meta.url).href,
         description: "My most recent song, I like dandelions",
-    },
-    {
-        id: 5,
-        name: "FINALLY",
-        path: new URL("./music/FINALLY.wav", import.meta.url).href,
-        description: "My first song, it is what it is",
     },
     {
         id: 6,
@@ -66,12 +54,6 @@ export const musics = [
         description: "sleepy mimimiinimimimimimimim",
     },
     {
-        id: 16,
-        name: "OntheHills",
-        path: new URL("./music/OntheHills.wav", import.meta.url).href,
-        description: "One of the soundtracks for PEWbrainz game",
-    },
-    {
         id: 17,
         name: "outs-id-er_or-_n-ot",
         path: new URL("./music/outs-id-er_or-_n-ot.ogg", import.meta.url).href,
@@ -84,22 +66,10 @@ export const musics = [
         description: "GOD DAMN IT IGNORE THE NAMEEEEE",
     },
     {
-        id: 20,
-        name: "SoundNice",
-        path: new URL("./music/SoundNice.wav", import.meta.url).href,
-        description: "Sound nice..?",
-    },
-    {
         id: 21,
         name: "SpinBottle",
         path: new URL("./music/SpinBottle.ogg", import.meta.url).href,
         description: "Soundtrack for Clowning Around again, we did use it for placeholder",
-    },
-    {
-        id: 23,
-        name: "UhhIdkWhatToNameTs",
-        path: new URL("./music/UhhIdkWhatToNameTs.wav", import.meta.url).href,
-        description: "Another soundtrack for PEWbrainz",
     },
     {
         id: 24,
@@ -112,12 +82,6 @@ export const musics = [
         name: "Wolf eating a donkey noooo",
         path: new URL("./music/Wolf eating a donkey noooo.ogg", import.meta.url).href,
         description: "This is for an event in team ASS",
-    },
-    {
-        id: 26,
-        name: "WowSoHappy",
-        path: new URL("./music/WowSoHappy.wav", import.meta.url).href,
-        description: "HEEYYYY A HAPPY SOUNDTRACKKK",
     },
     {
         id: 28,
