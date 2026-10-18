@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://skythe7.github.io",
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
@@ -17,6 +20,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.81.0",
     "vite": "^8.3.0",
     "vite-plugin-qrcode": "^0.4.1"
